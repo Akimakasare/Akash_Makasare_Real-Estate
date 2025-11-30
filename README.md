@@ -1,16 +1,16 @@
-**India Housing Investment & Price Predictor**
+## India Housing Investment & Price Predictor 
 
-**Project Overview**
+## Project Overview**
 This project implements an end-to-end Machine Learning solution for the Indian housing market. It involves data preprocessing, training two types of ML models (Classification and Regression), tracking the experiments using MLflow, and deploying the results in an interactive web application using Streamlit.
 
-**Key Objectives:**
+## Key Objectives:**
 
 Classification: Predict whether a property is a "Good Investment" (proxied by High Public Transport Accessibility).
 Regression: Predict the "Estimated Price after 5 Years" (proxied by the current Price in Lakhs).
 MLflow Integration: Track model performance, parameters, and log model artifacts for governance.
 Streamlit Deployment: Provide a user-friendly interface for making predictions and visualizing data insights.
 
-**Project Structure**
+## Project Structure**
 The project consists of three main phases, executed across two primary Python scripts:
 ML Development & MLflow Tracking (Steps 1-4)
 
@@ -20,7 +20,7 @@ Prerequisites
 
 To run this project, you need a Python environment (e.g., Anaconda, Google Colab, or a virtual environment) and the following libraries:
 
-**Core Skills**
+## Core Skills: 
 Python, Machine Learning, EDA, Data Analysis,
 Feature Engineering, Regression, Classification,
 Streamlit, MLflow, Model Evaluation, Feature
@@ -36,28 +36,28 @@ pip install mlflow plotly pyngrok
 # Web application framework
 pip install streamlit
 
-**Machine Learning Fundamentals:**
+## Machine Learning Fundamentals:**
 Supervised Learning: Training both Classification (predicting "Good Investment") and Regression (predicting "Estimated Price") models.
 Model Selection: Utilizing Random Forest models for both tasks (as noted in the Note and execution guide).
 Data Preprocessing: Handling data cleaning, missing values, and performing Feature Engineering (Steps 1-4).
 Model Evaluation: Implicitly using metrics (e.g., accuracy, R-squared) to track and compare model performance.
 
-**MLOps and Experiment Tracking (MLflow):**
+## MLOps and Experiment Tracking (MLflow):**
 Experiment Management: Tracking model parameters, performance, and artifacts using MLflow (MLflow Integration).
 Model Governance: Logging and registering models in the MLflow Model Registry.
 
-**Data Visualization and Analysis (Plotly):**
+## Data Visualization and Analysis (Plotly):**
 Creating and integrating Visual Insights (e.g., location-wise heatmaps, trend charts) using a library like Plotly (implied by the Prerequisites).
 
-**Web Application Deployment (Streamlit):**
+## Web Application Deployment (Streamlit):**
 Building and deploying interactive, user-friendly Streamlit applications.
 Creating user input forms (sidebar controls) and displaying structured outputs (metrics and charts).
 
-**Environment Management and Utilities:**
+## Environment Management and Utilities:**
 Using core Python data science libraries (pandas, numpy, scikit-learn).
 Using ngrok for creating secure tunnels to expose local web services (like Streamlit) in remote environments (like Google Colab).
 
-**Data**
+## Data**
 
 The project uses the India_housing_prices (Akash Makasare).csv file. Please ensure this file is placed in the root directory of your project where the scripts are executed.
 
