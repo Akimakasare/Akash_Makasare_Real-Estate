@@ -20,6 +20,13 @@ Prerequisites
 
 To run this project, you need a Python environment (e.g., Anaconda, Google Colab, or a virtual environment) and the following libraries:
 
+**Core Skills**
+Python, Machine Learning, EDA, Data Analysis,
+Feature Engineering, Regression, Classification,
+Streamlit, MLflow, Model Evaluation, Feature
+Scaling, Domain Understanding.
+
+
 # Core dependencies
 pip install pandas numpy scikit-learn
 
@@ -29,6 +36,26 @@ pip install mlflow plotly pyngrok
 # Web application framework
 pip install streamlit
 
+**Machine Learning Fundamentals:**
+Supervised Learning: Training both Classification (predicting "Good Investment") and Regression (predicting "Estimated Price") models.
+Model Selection: Utilizing Random Forest models for both tasks (as noted in the Note and execution guide).
+Data Preprocessing: Handling data cleaning, missing values, and performing Feature Engineering (Steps 1-4).
+Model Evaluation: Implicitly using metrics (e.g., accuracy, R-squared) to track and compare model performance.
+
+**MLOps and Experiment Tracking (MLflow):**
+Experiment Management: Tracking model parameters, performance, and artifacts using MLflow (MLflow Integration).
+Model Governance: Logging and registering models in the MLflow Model Registry.
+
+**Data Visualization and Analysis (Plotly):**
+Creating and integrating Visual Insights (e.g., location-wise heatmaps, trend charts) using a library like Plotly (implied by the Prerequisites).
+
+**Web Application Deployment (Streamlit):**
+Building and deploying interactive, user-friendly Streamlit applications.
+Creating user input forms (sidebar controls) and displaying structured outputs (metrics and charts).
+
+**Environment Management and Utilities:**
+Using core Python data science libraries (pandas, numpy, scikit-learn).
+Using ngrok for creating secure tunnels to expose local web services (like Streamlit) in remote environments (like Google Colab).
 
 **Data**
 
