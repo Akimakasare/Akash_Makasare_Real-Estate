@@ -1,0 +1,6 @@
+ID,State,City,Locality,Property_Type,BHK,Size_in_SqFt,Price_in_Lakhs,Price_per_SqFt,Year_Built,Furnished_Status,Floor_No,Total_Floors,Age_of_Property,Nearby_Schools,Nearby_Hospitals,Public_Transport_Accessibility,Parking_Space,Security,Amenities,Facing,Owner_Type,Availability_Status,,,
+1,Tamil Nadu,Chennai,Locality_84,Apartment,0,0.942222,0.979102,0.10101,1990,Furnished,0.733333,0,1,1,0.222222,High,No,No,"Playground, Gym, Garden, Pool, Clubhouse",West,Owner,Ready_to_Move,,,
+2,Maharashtra,Pune,Locality_490,Independent House,0.5,0.414222,0.378612,0.080808,2008,Unfurnished,0.7,0.655172,0.454545,0.777778,0,Low,No,Yes,"Playground, Clubhouse, Pool, Gym, Garden",North,Builder,Under_Construction,,,
+3,Punjab,Ludhiana,Locality_167,Apartment,0.25,0.698222,0.354673,0.050505,1997,Semi-furnished,0.633333,0.896552,0.787879,0.888889,0.777778,Low,Yes,No,"Clubhouse, Pool, Playground, Gym",South,Broker,Ready_to_Move,,,
+4,Rajasthan,Jodhpur,Locality_393,Independent House,0.25,0.498,0.592429,0.111111,1991,Furnished,0.7,0.862069,0.969697,0.444444,0.666667,High,Yes,Yes,"Playground, Clubhouse, Gym, Pool, Garden",North,Builder,Ready_to_Move,,,
+5,Rajasthan,Jaipur,Locality_466,Villa,0.75,0.960667,0.352857,0.040404,2002,Semi-furnished,0.1,0.034483,0.636364,0.333333,0.888889,Low,No,Yes,"Playground, Garden, Gym, Pool, Clubhouse",East,Builder,Ready_to_Move,,,
